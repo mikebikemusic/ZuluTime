@@ -1,0 +1,37 @@
+{
+    "versionLabel": "2.0",
+    "uuid": "2ed21551-7b9d-49d3-ae51-1f320dc971ae",
+    "appKeys": {
+        "TZOffset": 0
+    },
+    "longName": "Zulu Time",
+    "versionCode": 1,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "ZuluTime",
+    "companyName": "mikebikemusic",
+    "watchapp": {
+        "watchface": true
+    },
+    "resources": {
+        "media": [
+            {
+                "type": "font",
+                "name": "FONT_ROBOTO_BOLD_30",
+                "file": "fonts/Roboto-Bold.ttf"
+            },
+            {
+                "characterRegex": "[0-9:. ]",
+                "type": "font",
+                "name": "FONT_ROBOTO_BOLD_SUBSET_49",
+                "file": "fonts/Roboto-Bold.ttf"
+            },
+            {
+                "type": "png",
+                "name": "MENU_ICON",
+                "file": "images/menu_icon_zulu.png"
+            }
+        ]
+    }
+}

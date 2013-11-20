@@ -1,3 +1,4 @@
+#if 0
 #include "pebble_os.h"
 #include "http.h"
 
@@ -472,3 +473,4 @@ HTTPResult http_cookie_set_int8(uint32_t request_id, uint32_t key, int8_t value)
 HTTPResult http_cookie_set_uint8(uint32_t request_id, uint32_t key, uint8_t value) {
 	return http_cookie_set_int(request_id, key, &value, 1, false);
 }
+#endif
